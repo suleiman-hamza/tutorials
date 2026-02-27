@@ -1,0 +1,25 @@
+# -*- coding: utf-8 -*-
+{
+    'name': "Advanced PDF Branding",
+    'summary': "Advanced PDF Branding module tutorial",
+    'description': "Advanced PDF Branding module tutorial with custom external layouts, headers & footers, dynamic titles",
+    'version': '19.0.0.1',
+    'application': True,
+    'installable': True,
+    #'images': ['static/description/banner.png'],
+    'web_icon': 'static/description/icon.png',
+    'category': 'Sales/Reporting',
+    'depends': ['web', 'sale', 'account'],
+     "data": [
+        "security/ir.model.access.csv",
+        "views/brand_views.xml",
+        "views/sale_order_views.xml",
+        "views/account_move_views.xml",
+        "report/external_layout.xml",
+        "report/sale_order_report_inherit.xml",
+        "report/account_invoice_report_inherit.xml",
+        "data/demo_brand.xml",
+    ],
+    'author': 'Hunterr',
+    'license': 'LGPL-3',
+}

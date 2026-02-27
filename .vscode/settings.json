@@ -1,0 +1,9 @@
+{
+    "githubPullRequests.ignoredPullRequestBranches": [
+        "19.0"
+    ],
+  "python.analysis.extraPaths": [
+    "./odoo",
+    "./odoo/odoo"
+  ]
+}

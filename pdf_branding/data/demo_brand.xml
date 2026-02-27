@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo noupdate="1">
+  <!-- A demo brand (no logos shipped). Add logos from UI. -->
+  <record id="hunterr_brand_demo" model="hunterr.brand">
+    <field name="name">Hunterr Demo Brand</field>
+    <field name="company_id" ref="base.main_company"/>
+    <field name="tagline">Advanced PDF Branding in Odoo 19</field>
+    <field name="header_html">
+        <![CDATA[
+            <div><small><b>Hunterr</b> • Client-ready PDFs</small></div>
+        ]]>
+    </field>
+    <field name="footer_html">
+        <![CDATA[
+            <div><small>www.hunterxx.vercel.app • hamzasuleiman530@gmail.com</small></div>
+        ]]>
+    </field>
+  </record>
+</odoo>
